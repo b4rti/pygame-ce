@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v3.3.0
 
       - name: Download all artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
       
       # Strips 'release/' from the ref_name, this helps us access the version
       # name as 'steps.ver.outputs.VER'
